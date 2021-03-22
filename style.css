@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-area {
+    width: 450px;
+    height: 450px;
+    border: 10px solid lightgreen;
+    margin: 10% auto;
+    position: relative;
+    
+}
+
+.main-area .top-one {
+    width: 400px;
+    height: 150px;
+    border: 10px solid blue;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.main-area .top-two {
+    width: 400px;
+    height: 150px;
+    border: 10px solid blue;
+    position: absolute;
+    top: 235px;
+    left: 15px; 
+}
+
+.main-area .left-area {
+    width: 150px;
+    height: 320px;
+    border: 10px solid orange;
+    float: left;
+    position: absolute;
+    top: 80px;
+    left:35px;
+}
+
+.main-area .left-area .left-one {
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    top: 20px;
+    left: 10px;
+    position: absolute;
+}
+
+.main-area .left-area .left-two {
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    position: absolute;
+    top: 170px;
+    left: 15px;
+}
+
+.main-area .right-area {
+    width: 200px;
+    height: 300px;
+    border: 10px solid orange;
+    position: absolute;
+    top: 30px;
+    left: 190px
+}
+
+.main-area .right-area .right-one {
+    width: 130px;
+    height: 110px;
+    border: 10px solid black;
+    top: 25px;
+    left: 20px;
+    position: absolute;
+}
+.main-area .right-area .right-two {
+    width: 130px;
+    height: 80px;
+    border: 10px solid black;
+    top: 170px;
+    left: 20px;
+    position: absolute;
+}
